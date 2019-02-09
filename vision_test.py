@@ -5,7 +5,7 @@ from google.cloud import vision
 from google.cloud.vision import *
 import WebCamTest
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/codyenokida/eclipse-workspace/SLOHacks/My First Project-8ffd11f4abc8.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = ''
 
 # Instantiates a client
 client = vision.ImageAnnotatorClient()
